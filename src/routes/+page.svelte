@@ -1,14 +1,2 @@
-<script>
-    let { data } = $props();
-</script>
-
-{#if data.error}
-<p>Error loading instruments: {data.error}</p>
-{:else}
-    <ul>
-        {#each data.instruments as instrument}
-            <li>{instrument.name}</li>
-        {/each}
-    </ul>
-{/if}
-
+<h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
